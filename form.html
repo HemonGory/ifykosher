@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AltSchool Signup Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+   <!-- Global Navigation -->
+   <nav>
+    <ul>
+        <li><a href="index.html">About Me</a></li>
+        <li><a href="form.html">Signup Form</a></li>
+        <li><a href="table.html">Courses & Schools</a></li>
+        <li><a href="media.html">About Me (Media)</a></li>
+    </ul>
+</nav>
+
+    <!-- Signup Form Section -->
+    <section>
+        <h1>Signup</h1>
+        <p>Take the next steps to apply at AltSchool Africa</p>
+
+        <form action="#" method="post">
+
+            <!-- First Name -->
+            <label for="firstname">First Name:</label><br>
+            <input type="text" id="firstname" name="firstname" required size="30"><br><br>
+
+            <!-- Last Name -->
+            <label for="lastname">Last Name:</label><br>
+            <input type="text" id="lastname" name="lastname" required size="30"><br><br>
+
+            <!-- Gender -->
+            <label for="gender">Gender:</label><br>
+            <select id="gender" name="gender" required>
+                <option value="">Select gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select><br><br>
+
+            <!-- Date of Birth -->
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <!-- Email Address -->
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required size="30"><br><br>
+
+            <!-- Phone Number -->
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" required size="30"><br><br>
+
+            <!-- Country -->
+            <label for="country">Country:</label><br>
+            <select id="country" name="country" required>
+                <option value="">Select your country</option>
+                <option value="nigeria">Nigeria</option>
+                <option value="ghana">Ghana</option>
+                <option value="south_africa">South Africa</option>
+                <!-- Add more options as needed -->
+            </select><br><br>
+
+            <!-- State/City of Residence -->
+            <label for="state_city">State/City of Residence:</label><br>
+            <input type="text" id="state_city" name="state_city" required size="30"><br><br>
+
+            <!-- How did you hear about us? -->
+            <label for="referral">How did you hear about us?</label><br>
+            <select id="referral" name="referral" required>
+                <option value="">Select channel</option>
+                <option value="social_media">Social Media</option>
+                <option value="friend">Friend</option>
+                <option value="search_engine">Search Engine</option>
+                <!-- Add more options as needed -->
+            </select><br><br>
+
+            <!-- Password -->
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required size="30"><br><br>
+
+            <!-- Confirm Password -->
+            <label for="confirm_password">Confirm Password:</label><br>
+            <input type="password" id="confirm_password" name="confirm_password" required size="30"><br><br>
+
+            <!-- Terms of Use and Privacy Policy -->
+            <p>
+                By clicking submit, I agree to the <a href="#">Terms of Use</a> and acknowledge that I
+                have read the <a href="#">Privacy Policy</a>.
+            </p><br>
+
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+</body>
+</html>
